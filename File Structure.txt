@@ -1,0 +1,133 @@
+src: This directory contains all the source code for your website. It's typically organized into subdirectories based on the type of code:
+
+components: Contains reusable UI components used across different pages of your website, such as header, footer, buttons, etc.
+pages: Contains the individual pages of your website, each represented by a separate file. For example, you might have a Home.js file for the home page and an About.js file for the about page.
+services: Contains modules responsible for interacting with external services or APIs, such as fetching data from a server or handling authentication.
+utils: Contains utility functions or helper methods used across your codebase.
+styles: Contains CSS files for styling your website. You might have a main.css file for global styles and variables.css for storing CSS variables or constants.
+public: This directory contains static assets and HTML files that are served publicly by your web server:
+
+index.html: The main HTML file for your website, which serves as the entry point.
+favicon.ico: The icon displayed in the browser tab or bookmarks bar.
+Other static files like images, fonts, or any other assets that need to be publicly accessible.
+assets: This directory stores all the assets used in your website, such as images and fonts. It's organized into subdirectories for different types of assets.
+
+config: Contains configuration files for your website, such as environment settings or routing configuration.
+
+tests: Contains all the test files for your website, organized into different types of tests:
+
+unit: Contains unit tests for individual components or functions.
+integration: Contains integration tests that verify the interaction between different components or modules.
+e2e (end-to-end): Contains end-to-end tests that simulate real user interactions with your website.
+docs: Contains documentation files for your website, such as README.md and CONTRIBUTING.md. These files provide information about how to use, contribute to, or deploy your website.
+
+build: Contains scripts or configuration files related to building and deploying your website, such as build.js and deploy.js. These files automate tasks like bundling your code, optimizing assets, and deploying the website to a web server.
+
+/website
+    /src
+        /components
+            - Header.js
+            - Footer.js
+            ...
+        /pages
+            - Home.js
+            - About.js
+            ...
+        /services
+            - ApiService.js
+            - AuthService.js
+            ...
+        /utils
+            - helpers.js
+            - constants.js
+            ...
+        /styles
+            - main.css
+            - variables.css
+            ...
+    /public
+        - index.html
+        - favicon.ico
+        ...
+    /assets
+        /images
+            - image1.png
+            - image2.jpg
+            ...
+        /fonts
+            - font1.ttf
+            - font2.woff
+            ...
+    /config
+        - config.js
+        - routes.js
+        ...
+    /tests
+        /unit
+            - Component1.test.js
+            - Component2.test.js
+            ...
+        /integration
+            - IntegrationTest1.js
+            - IntegrationTest2.js
+            ...
+        /e2e
+            - E2ETest1.js
+            - E2ETest2.js
+            ...
+    /docs
+        - README.md
+        - CONTRIBUTING.md
+        ...
+    /build
+        - build.js
+        - deploy.js
+        ...
+
+Future note to self, use this bash code to create all of these at once
+
+  #!/bin/bash
+
+# Create directories
+mkdir -p website/src/components
+mkdir -p website/src/pages
+mkdir -p website/src/services
+mkdir -p website/src/utils
+mkdir -p website/src/styles
+mkdir -p website/public
+mkdir -p website/assets/images
+mkdir -p website/assets/fonts
+mkdir -p website/config
+mkdir -p website/tests/unit
+mkdir -p website/tests/integration
+mkdir -p website/tests/e2e
+mkdir -p website/docs
+mkdir -p website/build
+
+# Create files
+touch website/src/components/Header.js
+touch website/src/components/Footer.js
+touch website/src/pages/Home.js
+touch website/src/pages/About.js
+touch website/src/services/ApiService.js
+touch website/src/services/AuthService.js
+touch website/src/utils/helpers.js
+touch website/src/utils/constants.js
+touch website/src/styles/main.css
+touch website/src/styles/variables.css
+touch website/public/index.html
+touch website/public/favicon.ico
+touch website/config/config.js
+touch website/config/routes.js
+touch website/tests/unit/Component1.test.js
+touch website/tests/unit/Component2.test.js
+touch website/tests/integration/IntegrationTest1.js
+touch website/tests/integration/IntegrationTest2.js
+touch website/tests/e2e/E2ETest1.js
+touch website/tests/e2e/E2ETest2.js
+touch website/docs/README.md
+touch website/docs/CONTRIBUTING.md
+touch website/build/build.js
+touch website/build/deploy.js
+
+
