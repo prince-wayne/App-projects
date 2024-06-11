@@ -1,0 +1,163 @@
+[
+    {
+        "appName": "Pomodoro Timer",
+        "complexity": 1,
+        "costOfDevelopment": 1,
+        "profitability": 1,
+        "maintenanceDifficulty": 1,
+        "profitRange": "$1,000 - $10,000"
+    },
+    {
+        "appName": "Task Manager and Planner",
+        "complexity": 3,
+        "costOfDevelopment": 3,
+        "profitability": 3,
+        "maintenanceDifficulty": 3,
+        "profitRange": "$10,000 - $50,000"
+    },
+    {
+        "appName": "Campus Maps and Navigation",
+        "complexity": 3,
+        "costOfDevelopment": 3,
+        "profitability": 2,
+        "maintenanceDifficulty": 3,
+        "profitRange": "$5,000 - $30,000"
+    },
+    {
+        "appName": "Note-Taking App",
+        "complexity": 3,
+        "costOfDevelopment": 3,
+        "profitability": 3,
+        "maintenanceDifficulty": 3,
+        "profitRange": "$10,000 - $50,000"
+    },
+    {
+        "appName": "Fitness and Nutrition",
+        "complexity": 3,
+        "costOfDevelopment": 3,
+        "profitability": 3,
+        "maintenanceDifficulty": 3,
+        "profitRange": "$10,000 - $50,000"
+    },
+    {
+        "appName": "Course Reviews and Study Resources",
+        "complexity": 3,
+        "costOfDevelopment": 2,
+        "profitability": 3,
+        "maintenanceDifficulty": 2,
+        "profitRange": "$5,000 - $30,000"
+    },
+    {
+        "appName": "Budgeting and Expense Tracker",
+        "complexity": 3,
+        "costOfDevelopment": 2,
+        "profitability": 3,
+        "maintenanceDifficulty": 2,
+        "profitRange": "$5,000 - $30,000"
+    },
+    {
+        "appName": "Roommate Finder",
+        "complexity": 2,
+        "costOfDevelopment": 2,
+        "profitability": 2,
+        "maintenanceDifficulty": 2,
+        "profitRange": "$5,000 - $20,000"
+    },
+    {
+        "appName": "Study Group Finder",
+        "complexity": 2,
+        "costOfDevelopment": 1,
+        "profitability": 1,
+        "maintenanceDifficulty": 1,
+        "profitRange": "$1,000 - $10,000"
+    },
+    {
+        "appName": "Daily Life and Convenience Hub",
+        "complexity": 5,
+        "costOfDevelopment": 5,
+        "profitability": 5,
+        "maintenanceDifficulty": 5,
+        
+        "profitRange": "$50,000 - $200,000"
+    },
+    {
+        "appName": "Tutoring Services",
+        "complexity": 4,
+        "costOfDevelopment": 4,
+        "profitability": 4,
+        "maintenanceDifficulty": 4,
+        "profitRange": "$20,000 - $100,000"
+    },
+    {
+        "appName": "Campus Events and Networking",
+        "complexity": 3,
+        "costOfDevelopment": 3,
+        "profitability": 3,
+        "maintenanceDifficulty": 3,
+        "profitRange": "$10,000 - $50,000"
+    },
+    {
+        "appName": "Mental Health Support",
+        "complexity": 3,
+        "costOfDevelopment": 3,
+        "profitability": 3,
+        "maintenanceDifficulty": 3,
+        "profitRange": "$10,000 - $50,000"
+    },
+    {
+        "appName": "Internship and Job Search",
+        "complexity": 4,
+        "costOfDevelopment": 4,
+        "profitability": 5,
+        "maintenanceDifficulty": 4,
+        "profitRange": "$30,000 - $150,000"
+    },
+    {
+        "appName": "Social Media Campaigns",
+        "complexity": 4,
+        "costOfDevelopment": 4,
+        "profitability": 4,
+        "maintenanceDifficulty": 4,
+        "profitRange": "$20,000 - $100,000"
+    },
+    {
+        "appName": "Resume Builder and Interview Prep",
+        "complexity": 3,
+        "costOfDevelopment": 2,
+        "profitability": 3,
+        "maintenanceDifficulty": 2,
+        "profitRange": "$10,000 - $50,000"
+    },
+    {
+        "appName": "Secondhand Marketplace",
+        "complexity": 4,
+        "costOfDevelopment": 4,
+        "profitability": 5,
+        "maintenanceDifficulty": 4,
+        "profitRange": "$30,000 - $150,000"
+    },
+    {
+        "appName": "All-in-One Student Hub",
+        "complexity": 5,
+        "costOfDevelopment": 5,
+        "profitability": 5,
+        "maintenanceDifficulty": 5,
+        "profitRange": "$50,000 - $200,000"
+    },
+    {
+        "appName": "Customer Relationship Management (CRM)",
+        "complexity": 4,
+        "costOfDevelopment": 4,
+        "profitability": 5,
+        "maintenanceDifficulty": 4,
+        "profitRange": "$30,000 - $150,000"
+    },
+    {
+        "appName": "Investor Dashboard",
+        "complexity": 4,
+        "costOfDevelopment": 4,
+        "profitability": 5,
+        "maintenanceDifficulty": 4,
+        "profitRange": "$30,000 - $150,000"
+    }
+]
